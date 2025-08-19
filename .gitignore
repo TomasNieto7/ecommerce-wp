@@ -1,0 +1,31 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+
+# Configuración sensible
+wp-config.php
+
+# Plugins y temas de terceros
+wp-content/plugins/*
+!wp-content/plugins/mi-plugin
+
+wp-content/themes/*
+!wp-content/themes/mi-tema
+
+# Subidas de medios
+wp-content/uploads/
+
+# Archivos temporales
+*.log
+*.sql
+*.tar.gz
+*.zip
+*.tmp
+.DS_Store
+node_modules/
+vendor/
+.env
